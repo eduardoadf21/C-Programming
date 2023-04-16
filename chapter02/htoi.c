@@ -4,11 +4,13 @@
 
 int htoi(char s[]);
 
-int main(){
+int main()
+{
     printf("%d", htoi("aa10"));
 }
 
-int htoi(char s[]){
+int htoi(char s[])
+{
 
     int i, n;
     n = 0;
